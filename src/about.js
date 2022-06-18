@@ -1,7 +1,7 @@
 const About = () => {
 
     return (
-        <div className="aboutus-section myHeader">
+        <div className="aboutus-section myHeader" id="ert">
             <h1>Mision</h1>
             <strong>FightHunger</strong> is the collective initiative of three enterprising developers from Buea’s Silicon Mountain, with the singular aim of tackling the worldwide problem of hunger. In serving a fresh perspective to this global problem, FightHunger provides a platform that offers a two pronged solution to this problem.
             We offer a direct means for those in need of food shelters to find and locate them easily. This targets in particular the Internally Displaced Persons or IDPs that exist within our community, providing them with much needed information that would enable them secure meals and food items.
