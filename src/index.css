@@ -22,9 +22,14 @@ code {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 80%;
+  width: 100%;
+  background-color: white;
   border-bottom: 1px solid rgba(151, 151, 151, 0.59);
   /* box-shadow:-10px 1px 50px black; */
+  position:fixed;
+}
+.top-nav h1 {
+  margin-left: 5%;
 }
 .links {
   margin-left: auto;
@@ -33,6 +38,8 @@ code {
   align-items: center;
   width: 300px;
   /* background-color: pink; */
+  margin-right: 5%;
+  
 
 }
 .links a {
@@ -82,7 +89,7 @@ code {
   margin-left: 2%;
   margin-top: 5%;
   margin-bottom: 5%;
-  background-color: rgba(0, 0, 0, 0.436);
+  background-color: rgba(0, 0, 0, 0.523);
   padding: 2%;
   border-radius: 3px;
 }
@@ -117,6 +124,7 @@ code {
   justify-content: center;
   padding: 2%;
   width: auto;
+  margin-top: 5%;
   background-image: url("./images/home1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -257,4 +265,6 @@ input[type=submit]:hover {
 .aboutus-section {
   padding: 5%;
   margin: 0% 15%;
+  line-height: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.381);
 }
