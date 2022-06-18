@@ -2,7 +2,6 @@ const Footer = () => {
     return (
         <div className="footer-section">
             <div className="left-footer">
-                <a href="/">Donate</a>
                 <a href="/">facebook</a>
                 <a href="/">copyright</a>
                 <a href="#about">about</a>

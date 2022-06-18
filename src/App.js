@@ -14,7 +14,8 @@ function App() {
      <Foodlocation />
      <Foodlocation />
      <Foodlocation />
-     <DonationSection />
+     <div className="footer1" id="foot1"><DonationSection /></div>
+     
      <Footer />
     </div>
   );

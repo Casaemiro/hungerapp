@@ -13,8 +13,9 @@ const Introduction = () => {
                    
                 </p>
                 <div>
-                    <button className="hireBtn">DONATE</button>
-                    <button className="hireBtn hrbtn" href=".findfood">FIND FOOD</button>
+                    
+                    <a href="#foot1"><button className="hireBtn">DONATE</button></a>
+                    <button className="hireBtn hrbtn">FIND FOOD</button>
                 </div>
 
             </div>
