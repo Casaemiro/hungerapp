@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function DonationSection() {
+export default function Help() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -21,15 +21,13 @@ export default function DonationSection() {
 
   return (
     <div className="Container-Donate">
-    <h1> Welcome To The Donation Box!</h1>
-    <p>We do whatever it takes for our cause 
-      but we can't do it without you. Please Specify what 
-      type of Donation you want to offer!
+    <h1> Event organizer</h1>
+    <p>fill the form bellow to help people know about you food destribution event
     </p>
     <form id="form-submit">
 
-          <label for="fname">Full Name</label>
-          <input type="text" id="fname" name="fullname" placeholder="Your name.." required />
+          <label for="fname">Name of orgnisation</label>
+          <input type="text" id="fname" name="fullname" placeholder="Your organisation's name.." required />
 
           <label for="email">Email</label>
           <input type="text" id="email" name="email" placeholder="Provide your Email.." />
@@ -37,15 +35,12 @@ export default function DonationSection() {
           <label for="phone">Phone Number</label>
           <input type="text" id="phone" name="phone" placeholder="Enter your Phone Number.." required/>
 
-           <label for="country">Country</label>
-          <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
+           <label for="country">Location of destribution</label>
+          <select id="country" name="town">
+          <option value="australia">Buea</option>
+          <option value="canada">Bamenda</option>
+          <option value="usa">Limbe</option>
           </select>
-
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" clstyle={"height:200px"} required></textarea>
 
         <button type="submit" onClick={handleSubmit}>Submit</button>
 

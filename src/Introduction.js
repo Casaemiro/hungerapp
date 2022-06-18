@@ -15,7 +15,7 @@ const Introduction = () => {
                 <div>
                     
                     <a href="#foot1"><button className="hireBtn">DONATE</button></a>
-                    <button className="hireBtn hrbtn">FIND FOOD</button>
+                    <a href="#ty"><button className="hireBtn hrbtn">FIND FOOD</button></a>
                 </div>
 
             </div>
