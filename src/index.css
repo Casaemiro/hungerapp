@@ -147,7 +147,6 @@ code {
   border-radius: 2px;
   transition-duration: 300ms;
 }
-<<<<<<< HEAD
 /* find food____________________________________ */
  .findfood {
   width: 100%;
@@ -194,8 +193,7 @@ h2 {
   padding: 1%;
   padding-left: 4%;
   padding-right: 4%;
-
-=======
+}
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
@@ -228,5 +226,4 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
   width: 40%;
->>>>>>> 43540ede0c3fa49a1c448dac1d584c0a9ff1947d
 }
