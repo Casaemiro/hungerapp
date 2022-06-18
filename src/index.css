@@ -81,8 +81,9 @@ code {
   margin-left: 2%;
   margin-top: 5%;
   margin-bottom: 5%;
-  background-color: rgba(0, 0, 0, 0.358);
+  background-color: rgba(0, 0, 0, 0.436);
   padding: 2%;
+  border-radius: 3px;
 }
 .intro-text h1{
   font-size: 3rem;
@@ -101,7 +102,7 @@ code {
 
 }
 .myimg {
-  height: 50vh;
+  height: 30vh;
   border-radius: 5px;
   box-shadow:-10px 4px 40px -10px #000E39;
 
@@ -111,13 +112,14 @@ code {
   flex-direction: row;
   margin: 0% auto;
   /* background-color: green; */
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   padding: 2%;
   width: auto;
   background-image: url("./images/home1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 
 }
 .hireBtn {
@@ -144,4 +146,52 @@ code {
   color: white;
   border-radius: 2px;
   transition-duration: 300ms;
+}
+/* find food____________________________________ */
+ .findfood {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .search-food {
+  width: 100%;
+  height: 2rem;
+  border-radius: 4px;
+  border: 1px solid black;
+ 
+ }
+ .findform {
+  width: 40%;
+  margin: 3% auto;
+ }
+h2 {
+  color: black
+}
+.foodlocation {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: flex-start;
+  margin-bottom: 5%;
+  border-top: 1px solid black;
+  padding-top: 1%;
+}
+.intro-loc {
+  width: 50%;
+  line-height: 1.5rem;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  /* background-color: rgba(0, 0, 0, 0.358); */
+  /* padding: 2%; */
+}
+.Btn {
+  color: black;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+
 }

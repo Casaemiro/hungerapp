@@ -4,7 +4,7 @@ const Navbar = () => {
         <h1>FightHunger</h1>
         <div className="links">
         <a href="#about-me">Donate</a>
-        <a href="#about-me">find food</a>
+        <a href="#ty">find food</a>
             <a href="#portfolio">about</a>
             <a href="/">contact</a>
         </div>
