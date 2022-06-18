@@ -8,11 +8,15 @@ export default function DonationSection() {
     // const data = new FormData(event.target);
     
      let fullname =wow.fullname.value
-     let email = wow.fullname.value
-     let phone = wow.fullname.value
-     let country = wow.fullname.value
-     let subject = wow.fullname.value
+     let email = wow.email.value
+     let phone = wow.phone.value
+     let country = wow.country.value
+     let subject = wow.subject.value
+     console.log(fullname, email,phone,country, subject)
+     return 0;
   }
+
+  
 
 
   return (
